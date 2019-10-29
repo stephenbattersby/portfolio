@@ -1,0 +1,133 @@
+* {
+	box-sizing: border-box;
+}
+html,
+body {
+	font-family: 'Nunito', sans-serif;
+	margin: 0;
+	padding: 5px;
+	min-height: 100vh;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 25px;
+}
+h3 {
+	font-weight: bold;
+	font-size: 40px;
+	color: white;
+}
+h4 {
+	font-size: 16px;
+	padding: 5px;
+	margin: 7.5px;
+	border: black solid 1px;
+}
+h5,
+a {
+	font-size: 20px;
+	color: white;
+}
+a:hover {
+	color: darkslategrey;
+}
+
+h6 {
+	font-size: 20px;
+}
+
+header {
+	display: flex;
+	background-color: rgb(178, 182, 185);
+	justify-content: space-between;
+	color: white;
+}
+
+.hero-section {
+	display: flex;
+	background: url("/assets/banner-hero.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.9;
+	background-color: rgb(178, 182, 185);
+}
+.profile-image {
+	padding: 10px;
+	margin: 10px;
+	border: solid 2px white;
+}
+.hero-text {
+	padding: 10px;
+	align-items: baseline;
+}
+
+.bio-display {
+	display: grid;
+	grid-template-columns: 2fr 0fr 2fr;
+	grid-column-gap: 25px;
+	padding: 2px;
+	margin: 2px;
+}
+.bio-text {
+	font-size: 25px;
+	line-height: 40px;
+}
+
+.client-list {
+	font-size: 20px;
+	color: darkslategrey;
+	list-style-type: none;
+	margin: 30px;
+}
+li {
+	padding: 5px;
+}
+
+hr {
+	border: 2px;
+}
+.portfolio-display {
+	display: grid;
+	grid-template-columns: 3fr 3fr;
+	background-color: lightgrey;
+}
+.portfolio-photo {
+	height: 75%;
+	width: 75%;
+}
+.card-writing-1,
+.card-writing-2,
+.card-writing-3,
+.card-editing-1,
+.card-editing-2,
+.card-editing-3 {
+	height: auto;
+}
+.editing,
+.writing {
+	text-align: center;
+	border: 1px solid lightgrey;
+}
+.end {
+	font-size: 25px;
+	margin: 20px;
+	padding: 20px;
+	height: 70px;
+	width: 90%;
+	border: solid 1px grey;
+	background-color: rgb(178, 182, 185);
+	justify-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+	.main-nav,
+	.hero-section,
+	.bio-display,
+	.portfolio-display {
+		display: block;
+	}
+}

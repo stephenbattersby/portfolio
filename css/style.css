@@ -50,10 +50,11 @@ header {
 .hero-section {
 	display: flex;
 	background: url("/assets/banner-hero.jpg");
+	background-position: absolute;
 	background-size: cover;
 	background-repeat: no-repeat;
 	opacity: 0.9;
-
+	background-color: rgb(178, 182, 185);
 }
 .profile-image {
 	padding: 10px;

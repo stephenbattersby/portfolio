@@ -152,3 +152,4 @@ git add.
 git commit -m"your notes about the change"
 git push
 
+Notes: On Git & GitHub

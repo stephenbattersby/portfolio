@@ -155,4 +155,15 @@ git push
 Notes: On Git & GitHub
 git push origin master
 
-Updpating notes on GitHub
+Updpating notes on GitHub:
+
+There are 2 repositories (repos) the master (origin master) that saves all changes offline
+
+gh pages is the online publishing branch of your files.
+
+To switch branches type
+
+git checkout gh-pages
+git checkout origin master
+
+to check which branch you are on look at the fork at bottom left under the settings cog

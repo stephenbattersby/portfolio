@@ -135,7 +135,7 @@ The CSS is in a separate file and contains mainly the colors, font sizes, margin
 	display: flex;
 	background: url("/assets/banner-hero.jpg");
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; 
 	opacity: 0.9;
 	background-color: rgb(178, 182, 185);
 }
@@ -153,3 +153,6 @@ git commit -m"your notes about the change"
 git push
 
 Notes: On Git & GitHub
+git push origin master
+
+Updpating notes on GitHub

@@ -52,7 +52,7 @@ header {
 	background: url("/assets/banner-hero.jpg") rgb(178, 182, 185);
 	height: auto;
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	opacity: 0.9;
 
 }

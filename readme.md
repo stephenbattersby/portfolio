@@ -4,8 +4,8 @@ The web pages are built with vanilla HTML and CSS and is easy to update and main
 
 ## Meta-data (head)
 ```
-<head>
     <meta charset="utf-8">
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Stephen Battersby Science Writer & Editor</title>
     <link rel="stylesheet" href="css/style.css">
@@ -135,7 +135,7 @@ The CSS is in a separate file and contains mainly the colors, font sizes, margin
 	display: flex;
 	background: url("/assets/banner-hero.jpg");
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; 
 	opacity: 0.9;
 	background-color: rgb(178, 182, 185);
 }
@@ -144,3 +144,15 @@ The CSS is in a separate file and contains mainly the colors, font sizes, margin
 Save files and send the GitHub link with updates.
 
 Publishing directly to the web with GH Pages
+Make your changes check that you are happy with them with live server
+Right click on the html page and open the page with live server
+Once you are happy save the changes and then push them live with the commands
+
+git add.
+git commit -m"your notes about the change"
+git push
+
+Notes: On Git & GitHub
+git push origin master
+
+Updpating notes on GitHub
